@@ -1,0 +1,165 @@
+/* fonts */
+body {
+    font-family: "Verdana", "Trebuchet MS", Helvetica, Arial, "sans-serif";
+    color: black;
+   
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* buttons*/
+.container{  
+    text-align: center;  
+    }  
+
+.container a {
+    text-decoration: none;
+    display: inline-block; 
+    text-align: center;
+    }  
+    
+button {
+    background-color: rgb(232, 111, 125);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 30px 60px;
+    color: white;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.su-button {
+    background-color: rgb(35, 163, 186);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 30px 60px;
+    color: white;
+    width: 250px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+
+/* Link styles */
+
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(136, 226, 242);
+}
+
+a, .back-button {
+    color: rgb(35, 163, 186);
+    text-decoration: none;
+}
+
+a:hover, .back-button:hover {
+    text-decoration: underline;
+} 
+
+/* forms */
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 4px;
+}
+
+
+/* character creation form */
+
+.container-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.creation-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.creation-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.creation-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.creation-button {
+    background-color: rgb(232, 111, 125);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 30px 60px;
+    color: white;
+    width: 300px;
+    
+    text-align: center;
+}
+
+/* Add spacing between characters */
+
+.character-item {
+    margin-bottom: 30px;
+}
